@@ -1,8 +1,8 @@
 Spaceship bob = new Spaceship();
-Star[] sue = new Star[220];
+Star[] sue = new Star[200];
 public void setup() 
 {
- size(1000,1000);
+ size(700,700);
  background(0);
  for(int i=0; i<sue.length; i++){
  sue[i] = new Star();
@@ -10,7 +10,7 @@ public void setup()
 }
 public void keyPressed(){
  if(key == 'w'){
-   bob.accelerate(1);
+   bob.accelerate(.7);
  }
  if(key == 'a'){
    bob.turn(-15);
