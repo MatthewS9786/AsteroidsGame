@@ -18,7 +18,7 @@ class Asteriod extends Floater
       yCorners[4]=8;
       xCorners[5]=-5;
       yCorners[5]=0;
-      myColor=255;
+      myColor=100;
       myCenterX=350;
       myCenterY=350;
       while(myCenterX > 320 && myCenterX < 380 && myCenterY > 320 && myCenterY < 380){
