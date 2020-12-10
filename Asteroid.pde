@@ -21,7 +21,7 @@ class Asteriod extends Floater
       myColor=100;
       myCenterX=350;
       myCenterY=350;
-      while(myCenterX > 320 && myCenterX < 380 && myCenterY > 320 && myCenterY < 380){
+      while(myCenterX > 300 && myCenterX < 400 && myCenterY > 300 && myCenterY < 400){
        myCenterX = (int)(Math.random()*600)+50; 
        myCenterY = (int)(Math.random()*600)+50;
       }
